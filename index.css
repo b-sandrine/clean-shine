@@ -6,6 +6,7 @@
     --var-background:#C0DBDA;
     --var-white-900: #ffffff;
     --var-aqua-slight: #DBFAF9;
+    --var-bg-yellow: #ffff00;
 }
 
 * {
@@ -218,11 +219,39 @@
 .services .services-description .services-description-large .services-description-items-large {
     flex: 0 0 50%;
     max-width: 50%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.services .services-description .services-description-large .services-description-items-large img, .services .services-description .services-description-small .services-description-item img {
+    width: 95%;
+    height: 300px;
 }
 
 .services .services-description .services-description-small .services-description-item {
-    flex: 0 0 30%;
-    max-width: 30%;
+    flex: 0 0 33%;
+    max-width: 33%;
+    height: 300px;
+}
+
+.services .services-description .services-description-large .services-description-items-large span,
+.services .services-description .services-description-small .services-description-item span {
+    height: 300px;
+    display: inline-block;
+    width: 95%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    opacity: 0.5;
+    position: relative;
+    top: -303px;
+    left: 0;
+    padding-top: 150px;
+    color: white;
+    overflow: hidden;
+    background: var(--var-text-black); 
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .subscribe {
@@ -233,49 +262,76 @@
 }
 
 .subscribe .subscribe-left {
-    flex: 0 0 60%;
-    max-width: 0 0 40%;
+    flex: 0 0 70%;
+    max-width: 0 0 70%;
 }
 
+.subscribe .subscribe-left .subscribe-left-form {
+    margin-top: 35px;
+}
+
+.subscribe .subscribe-left .subscribe-left-form input {
+    height: 40px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 20%;
+}
+
+.subscribe .subscribe-left .subscribe-left-form input[type="button"] {
+    background: var(--var-text-green);
+    color: var(--var-white-900);
+    border-radius: 25px;
+    border: none;
+}
+
+
 .subscribe .subscribe-right {
-    flex: 0 0 40%;
-    max-width: 40%;
+    flex: 0 0 30%;
+    max-width: 30%;
 }
 
 .about-us {
     width: 100%;
     height: auto;
-    padding: 65px 45px;
+    padding: 65px 25px;
 }
 
 .about-us .about-us-items {
-    width: 90%;
-    margin: 25px 45px;
+    width: 100%;
     height: auto;
     display: flex;
+    margin-top: 40px;
 }
 
 .about-us .about-us-items .about-us-item {
-    flex: 0 0 25%;
-    max-width: 25%;
-    margin: 15px;
+    width: 100%;
+    margin: 15px 30px;
 }
 
 .about-us .about-us-items .about-us-item .about-us-outer {
     width: 90%;
-    height: 200px;
+    height: 165px;
     background: var(--var-text-aqua);
     border-radius: 50%;
 }
 
 .about-us .about-us-items .about-us-item .about-us-outer .about-us-inner {
     width: 80%;
-    height: 150px;
-    background-color: var(--var-text-black);
+    height: 135px;
+    background-color: var(--var-bg-yellow);
     border-radius: 50%;
     position: relative;
-    top: 25px;
+    top: 15px;
     left: 10%;
+}
+
+.about-us .about-us-items .about-us-item .about-us-description {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .book-us {
@@ -297,10 +353,38 @@
 {
     flex: 0 0 30%;
     max-width: 30%;
+    margin-right: 50px;
+}
+
+.book-us .book-us-content .book-us-form .book-us-form-item input {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.book-us .book-us-content .book-us-form .book-us-form-item textarea {
+    width: 100%;
+    height: 95px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.book-us .book-us-content .book-us-form .book-us-form-item input[type="submit"] {
+    background: var(--var-text-green);
+    color: var(--var-white-900);
+    border-radius: 25px;
+    border: none;
+    width: 40%;
+}
+
+.book-us .book-us-content .book-us-place img{
+    width: 100%;
 }
 
 .footer {
     width: 100%;
-    height: 300px;
+    height: 200px;
     text-align: center;
+    padding-top: 120px;
 }

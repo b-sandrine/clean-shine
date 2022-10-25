@@ -92,39 +92,39 @@ const MainContent = () => {
                 <div className="services-description">
                     <div className="services-description-large">
                         <div className="services-description-items-large">
-                            <img src="" alt="service image"></img>
+                            <img src="./assets/towfiqu-barbhuiya-ho-p7qLBewk-unsplash.jpg" alt="service image"></img>
                             <span class="services-description-item-text">
-
+                                Efficient Cleaning
                             </span>
                         </div>
 
                         <div className="services-description-items-large">
-                            <img src="" alt="service image"></img>
+                            <img src="./assets/spacejoy-umAXneH4GhA-unsplash.jpg" alt="service image"></img>
                             <span class="services-description-item-text">
-                            
+                                Subscription Cleaning
                             </span>
                         </div>
                     </div>
 
                     <div className="services-description-small">
                         <div className="services-description-item">
-                            <img src="" alt="service image"></img>
+                            <img src="./assets/spacejoy-IH7wPsjwomc-unsplash.jpg" alt="service image"></img>
                             <span class="services-description-item-text">
-                            
+                                    Uphostery Cleaning
                             </span>
                         </div>
 
                         <div className="services-description-item">
-                            <img src="" alt="service image"></img>
+                            <img src="./assets/sidekix-media-1vMz2_MclrM-unsplash.jpg" alt="service image"></img>
                             <span class="services-description-item-text">
-                            
+                                Deep Cleaning
                             </span>
                         </div>
 
                         <div className="services-description-item">
-                            <img src="" alt="service image"></img>
+                            <img src="./assets/steven-ungermann-Aac7IlKnYX8-unsplash.jpg" alt="service image"></img>
                             <span class="services-description-item-text">
-                            
+                                Professional Organizing
                             </span>
                         </div>
                     </div>
@@ -140,7 +140,7 @@ const MainContent = () => {
                     <div className="subscribe-left-form">
                         <input type="text" placeholder="Name" />
                         <input type="email" placeholder="Email" />
-                        <input type="btn" value="Submit" />
+                        <input type="button" value="Submit" />
                     </div>
                 </div>
                 <div className="subscribe-right">
@@ -161,7 +161,7 @@ const MainContent = () => {
                             </div>
                         </div>
                         <span class="about-us-description">
-                        
+                            PROFESSIONAL
                         </span>
                     </div>
 
@@ -172,7 +172,7 @@ const MainContent = () => {
                             </div>
                         </div>
                         <span class="about-us-description">
-                        
+                            AFFORDABLE
                         </span>
                     </div>
 
@@ -183,7 +183,7 @@ const MainContent = () => {
                             </div>
                         </div>
                         <span class="about-us-description">
-                        
+                            SAFE & SECURE
                         </span>
                     </div>
 
@@ -194,7 +194,7 @@ const MainContent = () => {
                             </div>
                         </div>
                         <span class="about-us-description">
-                        
+                            GUARANTEED SATISFACTION
                         </span>
                     </div>
                 </div>
@@ -215,7 +215,7 @@ const MainContent = () => {
                             <input type="email" placeholder="Email" />
                         </div>
                         <div className="book-us-form-item">
-                            <textarea  />
+                            <textarea  placeholder="Message"/>
                         </div>
                         <div className="book-us-form-item">
                             <input type="submit" value="Submit"/>
@@ -224,25 +224,33 @@ const MainContent = () => {
                 
 
                 <div className ="book-us-place">
-                    <img src="" alt="Image showing the place we work in"></img>
+                    <img src="./assets/the-map.png" alt="Image showing the place we work in"></img>
                 </div>
 
                 <div className="book-us-details">
                     <div className="book-us-details-item">
                         <div className="icon"></div>
-                        <div className="description"></div>
+                        <div className="description">
+                            <p>510 Glenview, Detroit, Michigan</p>
+                        </div>
                     </div>
                     <div className="book-us-details-item">
                         <div className="icon"></div>
-                        <div className="description"></div>
+                        <div className="description">
+                            <p>Mon to Sun: 8:00AM to 5:00PM</p>
+                        </div>
                     </div>
                     <div className="book-us-details-item">
                         <div className="icon"></div>
-                        <div className="description"></div>
+                        <div className="description">
+                            <p>321-555-5555</p>
+                        </div>
                     </div>
                     <div className="book-us-details-item">
                         <div className="icon"></div>
-                        <div className="description"></div>
+                        <div className="description">
+                            <p>info@company.com</p>
+                        </div>
                     </div>
                 </div>
                 </div>
