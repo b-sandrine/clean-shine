@@ -1,25 +1,27 @@
 function Navbar() {
     return (
         <nav className="nav">
-            <div className="nav-logo">
-                <img src="./assets/logo.webp" alt="the logo image"></img>
-                <h1>CLEAN & SHINE </h1>
-            </div>
-            <div className="nav-links">
-                <ul className="nav-link-container">
-                    <li className="nav-link-item">
-                        <a href="#" className="nav-link-item-url">Home</a>
-                    </li>
-                    <li className="nav-link-item">
-                        <a href="#" className="nav-link-item-url">About</a>
-                    </li>
-                    <li className="nav-link-item">
-                        <a href="#" className="nav-link-item-url active">Services</a>
-                    </li>
-                </ul>
-            </div>
-            <div className="nav-button">
-                <button className="btn" name="submit">Book Now!</button>
+            <div className="navbar">
+                <div className="nav-logo">
+                    <img src="./assets/logo.webp" alt="the logo image"></img>
+                    <h1>CLEAN & SHINE </h1>
+                </div>
+                <div className="nav-links">
+                    <ul className="nav-link-container">
+                        <li className="nav-link-item">
+                            <a href="#" className="nav-link-item-url">Home</a>
+                        </li>
+                        <li className="nav-link-item">
+                            <a href="#" className="nav-link-item-url">About</a>
+                        </li>
+                        <li className="nav-link-item">
+                            <a href="#" className="nav-link-item-url active">Services</a>
+                        </li>
+                    </ul>
+                </div>
+                <div className="nav-button">
+                    <button className="btn" name="submit">Book Now!</button>
+                </div>
             </div>
         </nav>
     )
@@ -32,6 +34,7 @@ const MainContent = () => {
             <div className="front-view">
                 <div className="front-view-details">
                     <h1>CLEAN & SHINE</h1>
+                    <p> ~ Experience the Shine of True Cleanliness</p>
                     <div className="nav-button">
                         <button className="btn" name="submit">Book Now!</button>
                     </div>
@@ -110,7 +113,7 @@ const MainContent = () => {
                         <div className="services-description-item">
                             <img src="./assets/spacejoy-IH7wPsjwomc-unsplash.jpg" alt="service image"></img>
                             <span class="services-description-item-text">
-                                    Uphostery Cleaning
+                                Uphostery Cleaning
                             </span>
                         </div>
 
@@ -198,7 +201,7 @@ const MainContent = () => {
                         </span>
                     </div>
                 </div>
-                
+
             </div>
 
             <div className="book-us">
@@ -215,51 +218,51 @@ const MainContent = () => {
                             <input type="email" placeholder="Email" />
                         </div>
                         <div className="book-us-form-item">
-                            <textarea  placeholder="Message"/>
+                            <textarea placeholder="Message" />
                         </div>
                         <div className="book-us-form-item">
-                            <input type="submit" value="Submit"/>
+                            <input type="submit" value="Submit" />
                         </div>
                     </div>
-                
 
-                <div className ="book-us-place">
-                    <img src="./assets/the-map.png" alt="Image showing the place we work in"></img>
-                </div>
 
-                <div className="book-us-details">
-                    <div className="book-us-details-item">
-                        <div className="icon"></div>
-                        <div className="description">
-                            <p>510 Glenview, Detroit, Michigan</p>
+                    <div className="book-us-place">
+                        <img src="./assets/the-map.png" alt="Image showing the place we work in"></img>
+                    </div>
+
+                    <div className="book-us-details">
+                        <div className="book-us-details-item">
+                            <div className="icon"></div>
+                            <div className="description">
+                                <p>510 Glenview, Detroit, Michigan</p>
+                            </div>
+                        </div>
+                        <div className="book-us-details-item">
+                            <div className="icon"></div>
+                            <div className="description">
+                                <p>Mon to Sun: 8:00AM to 5:00PM</p>
+                            </div>
+                        </div>
+                        <div className="book-us-details-item">
+                            <div className="icon"></div>
+                            <div className="description">
+                                <p>321-555-5555</p>
+                            </div>
+                        </div>
+                        <div className="book-us-details-item">
+                            <div className="icon"></div>
+                            <div className="description">
+                                <p>info@company.com</p>
+                            </div>
                         </div>
                     </div>
-                    <div className="book-us-details-item">
-                        <div className="icon"></div>
-                        <div className="description">
-                            <p>Mon to Sun: 8:00AM to 5:00PM</p>
-                        </div>
-                    </div>
-                    <div className="book-us-details-item">
-                        <div className="icon"></div>
-                        <div className="description">
-                            <p>321-555-5555</p>
-                        </div>
-                    </div>
-                    <div className="book-us-details-item">
-                        <div className="icon"></div>
-                        <div className="description">
-                            <p>info@company.com</p>
-                        </div>
-                    </div>
-                </div>
                 </div>
             </div>
         </section>
     )
 }
 
-function Footer () {
+function Footer() {
     return (
         <div className="footer">
             <div className="icons">
@@ -278,4 +281,4 @@ ReactDOM.render(
         <MainContent />
         <Footer />
     </div>
-, document.getElementById("root"))
+    , document.getElementById("root"))
