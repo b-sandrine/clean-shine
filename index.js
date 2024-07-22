@@ -46,7 +46,7 @@ const MainContent = () => {
 
             <div className="aboutContentQuote">
                 <h1 className="heading">
-                    Clean Home. Professional Service. Fair Price. Expert house cleaning service you can trust.
+                    "Clean Home. Professional Service. Fair Price. Expert house cleaning service you can trust. "
                 </h1>
                 <h2>
                     <span className="author"> ~ CLEAN & SHINE</span>

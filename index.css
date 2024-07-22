@@ -26,7 +26,7 @@
 }
 
 .nav .navbar {
-    width: 95%;
+    width: 90%;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -109,7 +109,7 @@
 .content .front-view .front-view-details {
     flex: 0 0 60%;
     max-width: 60%;
-    margin: 10% 2.8%;
+    margin: 10% 5%;
 }
 
 .content .front-view .front-view-details h1 {
@@ -149,21 +149,20 @@
 }
 
 .content .aboutContentQuote {
-    width: 100%;
+    width: 90%;
     height: 200px;
-    
+    margin: 150px auto 20px;
 }
 
 .content .aboutContentQuote .heading {
-    margin: 100px 100px 0;
-    width: 80%;
+    width: 90%;
     font-size: 45px;
 }
 
 .content .aboutContentQuote .author {
-    margin: 10px;
     width: 20%;
     float: right;
+    text-align: right;
 }
 
 
