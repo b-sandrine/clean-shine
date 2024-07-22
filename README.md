@@ -1,3 +1,19 @@
-I started this app on 25/10/2022 13:30. I wanted to practice what I learnt in React CDN. And look at what I did on netlify. Here is the link:
+## Project Start Date
 
-The design is from online and I tried implementing it following what I learnt.
+I started this app on 25/10/2022 13:30. 
+
+## Project Motivation
+
+I wanted to practice what I learnt about React CDN. The purpose was to host it on netlify. Here is the link to help you review my work: https://charming-biscuit-7bfa2d.netlify.app/
+
+
+## Notice
+
+The project design is from online. This is a clone of the official site which is for learning purpose.
+
+## How to run the project
+
+1. Clone the repository:
+    git clone git@github.com:b-sandrine/clean-shine.git
+2. Install live extension in VS Code
+3. Start the file using live extension
