@@ -222,7 +222,7 @@ const MainContent = () => {
                                 <textarea placeholder="Message" />
                             </div>
                             <div className="book-us-form-item">
-                                <input type="submit" value="Submit" />
+                                <input type="submit" value="Send" />
                             </div>
                         </div>
 
@@ -233,25 +233,33 @@ const MainContent = () => {
 
                         <div className="book-us-details">
                             <div className="book-us-details-item">
-                                <div className="icon"></div>
+                                <div className="icon">
+                                    <i className="fas fa-map-marker-alt"></i>
+                                </div>
                                 <div className="description">
                                     <p>510 Glenview, Detroit, Michigan</p>
                                 </div>
                             </div>
                             <div className="book-us-details-item">
-                                <div className="icon"></div>
+                                <div className="icon">
+                                    <i className="fas fa-clock"></i>
+                                </div>
                                 <div className="description">
                                     <p>Mon to Sun: 8:00AM to 5:00PM</p>
                                 </div>
                             </div>
                             <div className="book-us-details-item">
-                                <div className="icon"></div>
+                                <div className="icon">
+                                    <i className="fas fa-phone"></i>
+                                </div>
                                 <div className="description">
                                     <p>321-555-5555</p>
                                 </div>
                             </div>
                             <div className="book-us-details-item">
-                                <div className="icon"></div>
+                                <div className="icon">
+                                    <i className="fas fa-envelope"></i>
+                                </div>
                                 <div className="description">
                                     <p>info@company.com</p>
                                 </div>

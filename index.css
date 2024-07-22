@@ -242,8 +242,8 @@
 }
 
 .services .services-description .services-description-large .services-description-items-large {
-    flex: 0 0 50%;
-    max-width: 50%;
+    flex: 0 0 51%;
+    max-width: 51%;
     height: 300px;
     margin-bottom: 20px;
 }
@@ -254,8 +254,8 @@
 }
 
 .services .services-description .services-description-small .services-description-item {
-    flex: 0 0 33%;
-    max-width: 33%;
+    flex: 0 0 33.7%;
+    max-width: 33.7%;
     height: 300px;
 }
 
@@ -303,7 +303,7 @@
 }
 
 .subscribe .subscribe-left {
-    width: 25%;
+    width: 50%;
 }
 
 .subscribe .subscribe-left .subscribe-left-form {
@@ -332,7 +332,6 @@
 .subscribe .subscribe-right {
     width: 30%;
     text-align: right;
-    margin-right: 50px;
 }
 
 .about-us {
@@ -397,44 +396,107 @@
     margin-top: 45px;
 }
 
-.book-us .book-us-content .book-us-form,
-.book-us .book-us-content .book-us-place,
-.book-us .book-us-content .book-us-details 
-{
-    flex: 0 0 30%;
-    max-width: 30%;
-    margin-right: 50px;
+.book-us .sub-book-us {
+    width: 90%;
+    margin: 0 auto;
 }
+
+.book-us h1 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.book-us p {
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.book-us .sub-book-us .book-us-content {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .book-us .book-us-content .book-us-form .book-us-form-item input {
     width: 100%;
-    height: 45px;
-    padding: 10px;
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
     margin-bottom: 10px;
+    outline: none;
 }
 
 .book-us .book-us-content .book-us-form .book-us-form-item textarea {
     width: 100%;
-    height: 95px;
-    padding: 10px;
+    height: 170px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
     margin-bottom: 10px;
+    outline: none;
 }
 
 .book-us .book-us-content .book-us-form .book-us-form-item input[type="submit"] {
-    background: var(--var-text-green);
+    background: #2396a1;
     color: var(--var-white-900);
-    border-radius: 25px;
+    border-radius: 5px;
     border: none;
-    width: 40%;
+    width: 100%;
 }
 
 .book-us .book-us-content .book-us-place img{
     width: 100%;
+    height: 100%;
+}
+
+
+.book-us .book-us-content .book-us-form  {
+    width: 30%;
+}
+
+
+.book-us-details {
+    width: 25%;
+}
+
+.book-us .book-us-content .book-us-place {
+    width: 38%;
+}
+
+.book-us-details {
+    text-align: right;
+}
+
+.book-us-details .book-us-details-item {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+}
+
+.book-us-details .book-us-details-item .icon {
+    margin-right: 10px;
+    color: #2396a1;
+    font-size: 20px;
+}
+
+.book-us-details .book-us-details-item .description p {
+    font-family: 300;
+    font-size: 16px;
 }
 
 .footer {
     width: 100%;
-    height: 200px;
+    height: 50px;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 20px;
+    color: #2396a1;
+    font-size: 20px;
+    font-weight: 700;
 }
