@@ -54,34 +54,36 @@ const MainContent = () => {
             </div>
 
             <div className="workingPrinciple">
-                <h1 className="heading">Clean & Shine works in 4 simple steps</h1>
-                <div className="workingPrinciple-steps">
-                    <div className="workingPrinciple-step">
-                        <h1 className="number"> 1 </h1>
-                        <div className="description">
-                            <h1>BOOK</h1>
-                            <p>Tell us when and where.</p>
+                <div className="sub-workingPrinciple">
+                    <h1 className="heading">Clean & Shine works in 4 simple steps</h1>
+                    <div className="workingPrinciple-steps">
+                        <div className="workingPrinciple-step">
+                            <h1 className="number"> 1 </h1>
+                            <div className="description">
+                                <h1>BOOK</h1>
+                                <p>Tell us when and where.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="workingPrinciple-step">
-                        <h1 className="number"> 2 </h1>
-                        <div className="description">
-                            <h1>GET A QUOTE</h1>
-                            <p>All you need to know.</p>
+                        <div className="workingPrinciple-step">
+                            <h1 className="number"> 2 </h1>
+                            <div className="description">
+                                <h1>GET A QUOTE</h1>
+                                <p>All you need to know.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="workingPrinciple-step">
-                        <h1 className="number"> 3 </h1>
-                        <div className="description">
-                            <h1>CLEAN</h1>
-                            <p>Expert cleaning by our Clean & Shine Partners.</p>
+                        <div className="workingPrinciple-step">
+                            <h1 className="number"> 3 </h1>
+                            <div className="description">
+                                <h1>CLEAN</h1>
+                                <p>Expert cleaning by our Clean & Shine Partners.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="workingPrinciple-step">
-                        <h1 className="number"> 4 </h1>
-                        <div className="description">
-                            <h1>ENJOY</h1>
-                            <p>Relax and have fun.</p>
+                        <div className="workingPrinciple-step">
+                            <h1 className="number"> 4 </h1>
+                            <div className="description">
+                                <h1>ENJOY</h1>
+                                <p>Relax and have fun.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
