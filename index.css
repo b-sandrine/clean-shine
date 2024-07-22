@@ -204,24 +204,30 @@
 .workingPrinciple .workingPrinciple-steps .workingPrinciple-step .number {
     border: 1px solid var(--var-text-black);
     width: 20%;
-    height: 40px;
-    padding: 2px;
+    height: 45px;
+    padding: 7px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
 }
 
 .services {
-    width: 92%;
+    width: 90%;
     margin: 70px auto 60px auto;
 }
 
 .services .twin-headings {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .services .twin-headings h1{
     font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.services .twin-headings p {
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .services .services-description {
@@ -275,82 +281,107 @@
 
 .subscribe {
     width: 100%;
-    padding: 85px 45px;
+    padding: 50px 0;
     background-color: var(--var-aqua-slight);
+}
+
+.sub-subscribe {
+    width: 90%;
+    margin: 0 auto;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe h1 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.subscribe p {
+    font-size: 18px;
 }
 
 .subscribe .subscribe-left {
-    flex: 0 0 70%;
-    max-width: 0 0 70%;
+    width: 25%;
 }
 
 .subscribe .subscribe-left .subscribe-left-form {
-    margin-top: 35px;
+    margin-top: 15px;
 }
 
 .subscribe .subscribe-left .subscribe-left-form input {
     height: 40px;
-    margin-right: 10px;
+    margin: 10px  5px;
     padding: 10px;
-    width: 20%;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
 }
 
 .subscribe .subscribe-left .subscribe-left-form input[type="button"] {
     background: var(--var-text-green);
     color: var(--var-white-900);
-    border-radius: 25px;
+    border-radius: 5px;
     border: none;
+    font-size: 20px;
 }
 
 
 .subscribe .subscribe-right {
-    flex: 0 0 30%;
-    max-width: 30%;
+    width: 30%;
+    text-align: right;
+    margin-right: 50px;
 }
 
 .about-us {
-    width: 100%;
+    width: 90%;
     height: auto;
-    padding: 65px 45px;
+    padding: 65px 0;
+    margin: 0 auto;
+}
+
+.about-us h1 {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.about-us p {
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .about-us .about-us-items {
     width: 100%;
     height: auto;
     display: flex;
-    margin-top: 40px;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
 }
 
-.about-us .about-us-items .about-us-item {
-    width: 100%;
-    margin: 15px 30px;
-}
 
 .about-us .about-us-items .about-us-item .about-us-outer {
-    width: 90%;
-    height: 165px;
-    background: var(--var-text-aqua);
-    border-radius: 50%;
+    border-radius: 5px;
+    width: 250px;
+    height: 180px;
+    padding: 20px;
+    text-align: center;
+    /* border: 1px solid black; */
+    padding: 20px;
 }
 
-.about-us .about-us-items .about-us-item .about-us-outer .about-us-inner {
-    width: 80%;
-    height: 135px;
-    background-color: var(--var-bg-yellow);
-    border-radius: 50%;
-    position: relative;
-    top: 15px;
-    left: 10%;
+.about-us .about-us-items .about-us-item .about-us-outer i  {
+    font-size: 90px; 
+    color: #2396a1;
 }
 
 .about-us .about-us-items .about-us-item .about-us-description {
-    width: 100%;
-    text-align: center;
-    display: inline-block;
-    margin-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 25px;
+    font-weight: 500;
+    color: #2396a1;
 }
 
 .book-us {

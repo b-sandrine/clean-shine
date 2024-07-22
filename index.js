@@ -92,7 +92,7 @@ const MainContent = () => {
             <div className="services">
                 <div className="twin-headings">
                     <h1>Services</h1>
-                    <h2>Every project is different. Every client is special</h2>
+                    <p>Every project is different. Every client is special</p>
                 </div>
                 <div className="services-description">
                     <div className="services-description-large">
@@ -137,124 +137,124 @@ const MainContent = () => {
             </div>
 
             <div className="subscribe">
-                <div className="subscribe-left">
-                    <div className="twin-headings">
-                        <h1>Subscribe</h1>
-                        <h2>We'll get in touch with you soon.</h2>
+                <div className="sub-subscribe">
+                    <div className="subscribe-left">
+                        <div className="twin-headings">
+                            <h1>Subscribe</h1>
+                            <p>We'll get in touch with you soon.</p>
+                        </div>
+                        <div className="subscribe-left-form">
+                            <input type="text" placeholder="Name" />
+                            <input type="email" placeholder="Email" />
+                            <input type="button" value="Submit" />
+                        </div>
                     </div>
-                    <div className="subscribe-left-form">
-                        <input type="text" placeholder="Name" />
-                        <input type="email" placeholder="Email" />
-                        <input type="button" value="Submit" />
+                    <div className="subscribe-right">
+                        <img src="./assets/logo.webp" alt="the logo image"></img>
                     </div>
-                </div>
-                <div className="subscribe-right">
-                    <img src="./assets/logo.webp" alt="the logo image"></img>
                 </div>
             </div>
 
             <div className="about-us">
                 <div className="twin-headings">
                     <h1>Why choose Clean & Shine?</h1>
-                    <h2>Experience the difference.</h2>
+                    <p>Experience the difference.</p>
                 </div>
                 <div className="about-us-items">
                     <div className="about-us-item">
                         <div className="about-us-outer">
-                            <div className="about-us-inner">
-                                <i></i>
-                            </div>
+                            <i class="fas fa-business-time" aria-hidden="true"></i>
+                            <p class="about-us-description">
+                                PROFESSIONAL
+                            </p>
                         </div>
-                        <span class="about-us-description">
-                            PROFESSIONAL
-                        </span>
+
                     </div>
 
                     <div className="about-us-item">
                         <div className="about-us-outer">
-                            <div className="about-us-inner">
-                                <i></i>
-                            </div>
+                            <i className="fas fa-hand-holding-usd"></i>
+                            <p class="about-us-description">
+                                AFFORDABLE
+                            </p>
                         </div>
-                        <span class="about-us-description">
-                            AFFORDABLE
-                        </span>
+
                     </div>
 
                     <div className="about-us-item">
                         <div className="about-us-outer">
-                            <div className="about-us-inner">
-                                <i></i>
-                            </div>
+                            <i className="fas fa-user-shield"></i>
+                            <p class="about-us-description">
+                                SAFE & SECURE
+                            </p>
                         </div>
-                        <span class="about-us-description">
-                            SAFE & SECURE
-                        </span>
+
                     </div>
 
                     <div className="about-us-item">
                         <div className="about-us-outer">
-                            <div className="about-us-inner">
-                                <i></i>
-                            </div>
+                            <i className="fas fa-certificate"></i>
+                            <p class="about-us-description">
+                                GUARANTEED SATISFACTION
+                            </p>
                         </div>
-                        <span class="about-us-description">
-                            GUARANTEED SATISFACTION
-                        </span>
+
                     </div>
                 </div>
 
             </div>
 
             <div className="book-us">
-                <div className="twin-headings">
-                    <h1>Book Now!</h1>
-                    <h2>One call cleans it all.</h2>
-                </div>
-                <div className="book-us-content">
-                    <div className="book-us-form">
-                        <div className="book-us-form-item">
-                            <input type="text" placeholder="Name" />
-                        </div>
-                        <div className="book-us-form-item">
-                            <input type="email" placeholder="Email" />
-                        </div>
-                        <div className="book-us-form-item">
-                            <textarea placeholder="Message" />
-                        </div>
-                        <div className="book-us-form-item">
-                            <input type="submit" value="Submit" />
-                        </div>
+                <div className="sub-book-us">
+                    <div className="twin-headings">
+                        <h1>Book Now!</h1>
+                        <p>One call cleans it all.</p>
                     </div>
-
-
-                    <div className="book-us-place">
-                        <img src="./assets/the-map.png" alt="Image showing the place we work in"></img>
-                    </div>
-
-                    <div className="book-us-details">
-                        <div className="book-us-details-item">
-                            <div className="icon"></div>
-                            <div className="description">
-                                <p>510 Glenview, Detroit, Michigan</p>
+                    <div className="book-us-content">
+                        <div className="book-us-form">
+                            <div className="book-us-form-item">
+                                <input type="text" placeholder="Name" />
+                            </div>
+                            <div className="book-us-form-item">
+                                <input type="email" placeholder="Email" />
+                            </div>
+                            <div className="book-us-form-item">
+                                <textarea placeholder="Message" />
+                            </div>
+                            <div className="book-us-form-item">
+                                <input type="submit" value="Submit" />
                             </div>
                         </div>
-                        <div className="book-us-details-item">
-                            <div className="icon"></div>
-                            <div className="description">
-                                <p>Mon to Sun: 8:00AM to 5:00PM</p>
-                            </div>
+
+
+                        <div className="book-us-place">
+                            <img src="./assets/the-map.png" alt="Image showing the place we work in"></img>
                         </div>
-                        <div className="book-us-details-item">
-                            <div className="icon"></div>
-                            <div className="description">
-                                <p>321-555-5555</p>
+
+                        <div className="book-us-details">
+                            <div className="book-us-details-item">
+                                <div className="icon"></div>
+                                <div className="description">
+                                    <p>510 Glenview, Detroit, Michigan</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="book-us-details-item">
-                            <div className="icon"></div>
-                            <div className="description">
-                                <p>info@company.com</p>
+                            <div className="book-us-details-item">
+                                <div className="icon"></div>
+                                <div className="description">
+                                    <p>Mon to Sun: 8:00AM to 5:00PM</p>
+                                </div>
+                            </div>
+                            <div className="book-us-details-item">
+                                <div className="icon"></div>
+                                <div className="description">
+                                    <p>321-555-5555</p>
+                                </div>
+                            </div>
+                            <div className="book-us-details-item">
+                                <div className="icon"></div>
+                                <div className="description">
+                                    <p>info@company.com</p>
+                                </div>
                             </div>
                         </div>
                     </div>
